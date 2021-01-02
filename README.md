@@ -7,7 +7,7 @@ Run [Frink] on [NixOS] without much hassle.
 
 To start a CLI session:
 
-`$ nix run github:r-k-b/nix-frink`
+`$ nix run github:r-k-b/frink-nix`
 
 
 # updating
