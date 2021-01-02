@@ -7,10 +7,10 @@
     utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages."${system}";
-        inherit (pkgs) dos2unix jre mkShell stdenv;
+        inherit (pkgs) dos2unix jre mkShell rlwrap stdenv;
         frink = stdenv.mkDerivation {
           name = "frink";
-          buildInputs = [ dos2unix jre ];
+          buildInputs = [ dos2unix jre rlwrap ];
           buildPhase = ''
             dos2unix ./frink-cli.sh
             chmod +x ./frink-cli.sh
@@ -18,7 +18,8 @@
                 --replace 'jar=/home/eliasen/prog/frinknew/jar/frink.jar' \
                           "jar=$out/bin/frink.jar" \
                 --replace 'java=/etc/alternatives/java' "java=${jre}/bin/java" \
-                --replace '/home/eliasen/prog/frink/jar' "$out"
+                --replace '/home/eliasen/prog/frink/jar' "$out" \
+                --replace '/usr/bin/rlwrap' "${rlwrap}/bin/rlwrap"
           '';
           installPhase = ''
             mkdir -p $out/bin
