@@ -13,6 +13,7 @@
           buildInputs = [ dos2unix jre ];
           buildPhase = ''
             dos2unix ./frink-cli.sh
+            chmod +x ./frink-cli.sh
             substituteInPlace ./frink-cli.sh \
                 --replace 'jar=/home/eliasen/prog/frinknew/jar/frink.jar' \
                           "jar=$out/bin/frink.jar" \
