@@ -3,8 +3,8 @@
 ¥
 °
 A
-Å
 Å
+Å
 A0paper
 A10paper
 A1paper
@@ -893,6 +893,7 @@ earthmass
 earthradius
 earthradius_equatorial
 earthradius_polar
+earthvolume
 earthyear
 East_Caribbean_Dollar
 East_Timor
@@ -1267,6 +1268,7 @@ Guyana_currency
 Guyana_Dollar
 Gy
 GYD
+gₙ
 h
 H
 H_0
@@ -1347,6 +1349,7 @@ Hungary_Forint
 hydrogen
 hyl
 Hz
+H₂O
 i
 Iceland
 Iceland_currency
@@ -1616,6 +1619,7 @@ Kyrgyzstan
 Kyrgyzstan_currency
 Kyrgyzstan_Som
 KZT
+kₑ
 l
 L
 l_P
@@ -2014,6 +2018,7 @@ MUR
 musicalfifth
 musicalfourth
 mutchkin
+mu₀
 MVR
 MWK
 Mx
@@ -2024,6 +2029,7 @@ Myanmar_Kyat
 MYR
 myria
 MZN
+mᵤ
 N
 N_A
 NAD
@@ -2562,6 +2568,7 @@ RWF
 rydberg
 Rydberg_constant
 ryebushel
+rₑ
 s
 S
 Saba
@@ -2737,6 +2744,8 @@ sievertunit
 sigma
 sigma_e
 sigma_t
+sigmaₑ
+sigmaₜ
 sign
 silicon
 silver
@@ -3378,6 +3387,7 @@ Yugoslavia
 Yugoslavia_currency
 Yugoslavia_New_Dinar
 YUN
+Y₀
 Z0
 Zambia
 Zambia_currency
@@ -3424,9 +3434,15 @@ zloty
 Zloty
 ZMK
 ZWD
+Z₀
 Δν_Cs
 Ω
+ε0
+ε₀
+μ₀
 π
+σₑ
+σₜ
 ℉
 ℎ
 ℏ

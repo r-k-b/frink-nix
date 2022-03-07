@@ -35,6 +35,10 @@ classpath=$jar
 #
 # You can install rlwrap on Fedora using (as root)
 #   dnf install rlwrap
+#
+# Or on Debian-like devices like Raspberry Pi:
+#   apt-get install rlwrap
+
 rlwrap=""
 rlwrapflags1=""
 rlwrapflags2=""
