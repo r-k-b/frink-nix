@@ -12,8 +12,8 @@ To start a CLI session:
 
 # updating
 
-To update Frink, run `./update.sh`. The file `LAST_UPDATED` indicates when this
-was last run.
+To update Frink, run `./update.sh`. The file [`LAST-UPDATED`](./LAST-UPDATED)
+indicates when this was last run.
 
 To update the other inputs to this flake, such as `nixpkgs`, run 
 `nix flake update`.
