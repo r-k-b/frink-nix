@@ -38,11 +38,11 @@
       in {
         # `nix build`
         packages.frink = frink;
-        defaultPackage = frink;
+        packages.default = frink;
 
         # `nix run`
         apps.frink = frinkApp;
-        defaultApp = frinkApp;
+        apps.default = frinkApp;
 
         # `nix develop`
         devShell =
