@@ -9,6 +9,18 @@ To start a CLI session:
 
 `$ nix run github:r-k-b/frink-nix`
 
+To start a GUI session:
+
+`$ nix run github:r-k-b/frink-nix -- --gui`
+
+To calculate something and exit:
+
+`$ nix run github:r-k-b/frink-nix -- -e "78 yards -> feet"`
+
+See [RunningFrink] for more options.
+
+[RunningFrink]: https://frinklang.org/#RunningFrink
+
 
 # updating
 
