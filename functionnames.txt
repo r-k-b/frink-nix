@@ -175,6 +175,7 @@ DHMS[d,h=0,m=0,s=0]$
 DHMS[time]$
 dict[]$
 dimensions[]$
+dimensionsToArray[arg1]$
 divideAndRemainder[arg1,arg2]$
 DM[angle]$
 DMS[angle]$
@@ -263,6 +264,7 @@ formatEng[arg1,arg2,arg3]$
 formatFix[arg1,arg2,arg3]$
 formatFixed[arg1,arg2,arg3]$
 formatMatrix[arg1,arg2=,arg3=]$
+formatMatrixCompact[arg1,arg2=,arg3=]$
 formatParens[arg1,arg2=,arg3=]$
 formatParensCompact[arg1,arg2=,arg3=]$
 formatSci[arg1,arg2,arg3]$
@@ -337,6 +339,7 @@ FromSwedish[arg1]$
 FromTraditionalChinese[arg1]$
 functions[]$
 gcd[arg1,arg2]$
+gcd[arg1]$
 German[arg1]$
 GermanToEnglish[arg1]$
 GermanToFrench[arg1]$
@@ -355,6 +358,7 @@ getLowestSetBit[arg1]$
 getOperatorPrecedence[arg1]$
 getOperatorSymbol[arg1]$
 getPrecision[]$
+getScale[arg1]$
 getSymbols[arg1]$
 getSymbolsByComplexity[arg1]$
 graphemeLength[arg1]$
@@ -445,6 +449,7 @@ last[arg1,arg2]$
 last[arg1]$
 lc[arg1]$
 lcm[arg1,arg2]$
+lcm[arg1]$
 left[arg1,arg2]$
 length[arg1]$
 lengthOfDay[arg1,arg2=undef]$
@@ -698,7 +703,8 @@ unitsWithValues[]$
 unitsWithValues[arg1]$
 uppercase[arg1]$
 url[arg1,arg2]$
-URLEncode[arg1,arg2]$
+URLDecode[arg1,arg2=UTF8]$
+URLEncode[arg1,arg2=UTF8]$
 urlFile[arg1]$
 urlHost[arg1]$
 urlPath[arg1]$
