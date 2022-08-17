@@ -145,6 +145,7 @@ ChineseToEnglish[arg1]$
 clamp[arg1,arg2,arg3]$
 clearBit[arg1,arg2]$
 collapseIntervals[arg1]$
+columnize[arg1,arg2]$
 concat[arg1,arg2]$
 conjugate[arg1]$
 constructExpression[arg1,arg2]$
@@ -156,6 +157,8 @@ cosine[arg1]$
 cot[arg1]$
 cotangent[arg1]$
 coth[arg1]$
+count[arg1,arg2]$
+count[arg1]$
 countToArray[arg1]$
 countToDict[arg1]$
 csc[arg1]$
@@ -450,6 +453,7 @@ last[arg1]$
 lc[arg1]$
 lcm[arg1,arg2]$
 lcm[arg1]$
+leastCommon[arg1]$
 left[arg1,arg2]$
 length[arg1]$
 lengthOfDay[arg1,arg2=undef]$
@@ -492,6 +496,7 @@ MJD[arg1]$
 modDiv[arg1,arg2,arg3]$
 modInverse[arg1,arg2]$
 modPow[arg1,arg2,arg3]$
+mostCommon[arg1]$
 Nederlands[arg1]$
 newJava[arg1,arg2=[]]$
 newJavaArray[arg1,arg2]$
