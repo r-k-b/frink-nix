@@ -229,6 +229,7 @@ EnglishToSimplifiedChinese[arg1]$
 EnglishToSpanish[arg1]$
 EnglishToSwedish[arg1]$
 EnglishToTraditionalChinese[arg1]$
+enumerate[arg1]$
 es_en[arg1]$
 es_fr[arg1]$
 es[arg1]$
@@ -353,6 +354,7 @@ getChildCount[arg1]$
 getChildren[arg1]$
 getChildrenWithTypes[arg1]$
 getChildTypes[arg1]$
+getColumn[arg1,arg2,arg3=undef]$
 getDefaultComparator[]$
 getExponent[arg1,arg2]$
 getFunction[arg1,arg2]$
@@ -363,6 +365,7 @@ getOperatorSymbol[arg1]$
 getPrecision[]$
 getScale[arg1]$
 getSymbols[arg1]$
+getSymbolsAsSymbols[arg1]$
 getSymbolsByComplexity[arg1]$
 graphemeLength[arg1]$
 graphemeList[arg1]$
@@ -492,6 +495,7 @@ methods[arg1]$
 mignitude[arg1]$
 min[arg1,arg2]$
 min[arg1]$
+minmax[arg1]$
 MJD[arg1]$
 modDiv[arg1,arg2,arg3]$
 modInverse[arg1,arg2]$
@@ -569,6 +573,7 @@ rawFunctions[]$
 Re[arg1]$
 read[arg1,arg2]$
 read[arg1]$
+readBytes[arg1]$
 readLines[arg1]$
 readStdin[]$
 realSignum[arg1]$
@@ -607,6 +612,7 @@ sentenceList[arg1]$
 septenary[arg1]$
 septendecimal[arg1]$
 setBit[arg1,arg2]$
+setColumn[arg1,arg2,arg3]$
 setDefaultTimezone[arg1]$
 setDifference[arg1,arg2]$
 setDimensionNameDelimiters[arg1,arg2]$

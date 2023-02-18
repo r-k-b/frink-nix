@@ -3,8 +3,8 @@
 ¥
 °
 A
-Å
 Å
+Å
 A0paper
 A10paper
 A1paper
@@ -2001,6 +2001,8 @@ Mozambique
 Mozambique_currency
 Mozambique_Metical
 mpg
+mpge
+MPGe
 mph
 MRO
 MTL
@@ -2466,6 +2468,8 @@ quartaria
 quartarius
 quarter
 quattuordecillion
+quecto
+quetta
 quetzal
 Quetzal
 quincunx
@@ -2541,7 +2545,9 @@ romanpalm
 romanperch
 romanpound
 RON
+ronna
 rontgen
+ronto
 rood
 rope
 rpm
