@@ -4,9 +4,11 @@ acosh[arg1]$
 acoth[arg1]$
 acsch[arg1]$
 addLeap[arg1,arg2]$
+allDifferent[arg1]$
 allemand[arg1]$
 Allemand[arg1]$
 allFactors[n,include1=true,includeN=true,sort=true,onlyToSqrt=false]$
+allSame[arg1]$
 Anglais[arg1]$
 approxLog2[arg1]$
 ar_en[arg1]$
@@ -126,6 +128,8 @@ ceil[arg1]$
 ceiling[arg1]$
 Celsius[x]$
 char[arg1]$
+charBlock[arg1]$
+charBlocks[arg1]$
 charCategoriesLong[arg1]$
 charCategoriesShort[arg1]$
 charCategoryLong[arg1]$
@@ -503,6 +507,7 @@ modPow[arg1,arg2,arg3]$
 mostCommon[arg1]$
 Nederlands[arg1]$
 newJava[arg1,arg2=[]]$
+newJavaArray[arg1,arg2,arg3]$
 newJavaArray[arg1,arg2]$
 newToString[arg1,arg2]$
 newToString[arg1]$
@@ -690,6 +695,7 @@ toSet[arg1]$
 toString[arg1]$
 toUnicodeSubscript[arg1]$
 toUnicodeSuperscript[arg1]$
+toVector[arg1]$
 TraditionalChinese[arg1]$
 TraditionalChineseToEnglish[arg1]$
 transformExpression[arg1,arg2]$
@@ -712,6 +718,7 @@ units[]$
 units[arg1]$
 unitsWithValues[]$
 unitsWithValues[arg1]$
+unzip[arg1]$
 uppercase[arg1]$
 url[arg1,arg2]$
 URLDecode[arg1,arg2=UTF8]$
