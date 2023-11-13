@@ -352,6 +352,7 @@ German[arg1]$
 GermanToEnglish[arg1]$
 GermanToFrench[arg1]$
 getBit[arg1,arg2]$
+getBitBool[arg1,arg2]$
 getBoundingBox[arg1]$
 getChild[arg1,arg2]$
 getChildCount[arg1]$
