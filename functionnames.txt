@@ -7,6 +7,7 @@ addLeap[arg1,arg2]$
 allDifferent[arg1]$
 allemand[arg1]$
 Allemand[arg1]$
+allEqual[arg1,arg2]$
 allFactors[n,include1=true,includeN=true,sort=true,onlyToSqrt=false]$
 allSame[arg1]$
 Anglais[arg1]$
@@ -458,6 +459,8 @@ Korean[arg1]$
 KoreanToEnglish[arg1]$
 last[arg1,arg2]$
 last[arg1]$
+lastIndexOf[arg1,arg2,arg3]$
+lastIndexOf[arg1,arg2]$
 lc[arg1]$
 lcm[arg1,arg2]$
 lcm[arg1]$
@@ -539,6 +542,7 @@ parseToExpression[arg1]$
 partitionCount[arg1]$
 partitions[arg1]$
 partitionsCompact[arg1,arg2=false]$
+permutationCount[arg1,arg2]$
 pl_en[arg1]$
 pl[arg1]$
 Polish[arg1]$
