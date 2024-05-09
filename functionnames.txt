@@ -182,6 +182,7 @@ DFT[arg1,arg2=-1,arg3=1]$
 DHMS[d,h=0,m=0,s=0]$
 DHMS[time]$
 dict[]$
+digitLength[arg1]$
 dimensions[]$
 dimensionsToArray[arg1]$
 divideAndRemainder[arg1,arg2]$
@@ -253,6 +254,7 @@ factor[arg1]$
 factorFlat[arg1]$
 factorial[arg1]$
 factorialRatio[arg1,arg2]$
+factorUnits[arg1]$
 Fahrenheit[x]$
 FFT[arg1,arg2=-1,arg3=1]$
 filenameToURL[arg1]$
@@ -510,6 +512,7 @@ modInverse[arg1,arg2]$
 modPow[arg1,arg2,arg3]$
 mostCommon[arg1]$
 Nederlands[arg1]$
+negate[arg1]$
 newJava[arg1,arg2=[]]$
 newJavaArray[arg1,arg2,arg3]$
 newJavaArray[arg1,arg2]$
