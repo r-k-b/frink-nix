@@ -45,7 +45,7 @@
         apps.default = frinkApp;
 
         # `nix develop`
-        devShell =
+        devShells.default =
           mkShell { nativeBuildInputs = with pkgs; [ jre rlwrap frink ]; };
       });
 }
