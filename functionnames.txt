@@ -498,6 +498,8 @@ mapList[arg1,arg2,arg3]$
 mapList[arg1,arg2]$
 max[arg1,arg2]$
 max[arg1]$
+mean[list]$
+meanAndSD[list,sample]$
 messageDigest[arg1,arg2]$
 messageDigestBytes[arg1,arg2]$
 messageDigestInt[arg1,arg2]$
@@ -508,6 +510,7 @@ min[arg1]$
 minmax[arg1]$
 MJD[arg1]$
 modDiv[arg1,arg2,arg3]$
+modes[list]$
 modInverse[arg1,arg2]$
 modPow[arg1,arg2,arg3]$
 mostCommon[arg1]$
@@ -526,6 +529,8 @@ nonary[arg1]$
 normalizeUnicode[arg1,arg2=NFC]$
 now[]$
 nth[arg1,arg2]$
+nth0[arg1,arg2]$
+nth1[arg1,arg2]$
 numerator[arg1,arg2=true,arg3=true]$
 numeratorDenominator[arg1,arg2=true,arg3=true]$
 oct[arg1]$
