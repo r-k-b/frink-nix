@@ -10,6 +10,6 @@ curl -s https://frinklang.org/frinkjar/functionnames.txt -o functionnames.txt &
 wait
 date --iso-8601=seconds > LAST-UPDATED
 
-echo Frink files updated.
-echo Consider also, whether you want to `nix flake update`.
+echo "Frink files updated."
+echo "Consider also, whether you want to 'nix flake update'."
 
