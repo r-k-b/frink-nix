@@ -3,6 +3,7 @@ acos[arg1]$
 acosh[arg1]$
 acoth[arg1]$
 acsch[arg1]$
+add[arg1,arg2]$
 addLeap[arg1,arg2]$
 allDifferent[arg1]$
 allemand[arg1]$
@@ -120,6 +121,7 @@ bitOr[arg1,arg2]$
 bitXor[arg1,arg2]$
 browse[arg1]$
 byColumn[arg1]$
+byColumns[arg1]$
 bytesToString[arg1,arg2=UTF8]$
 C[x]$
 callByName[arg1,arg2,arg3=[]]$
@@ -147,6 +149,8 @@ childrenWithTypes[arg1]$
 childTypes[arg1]$
 Chinese[arg1]$
 ChineseToEnglish[arg1]$
+chunks[arg1,arg2,arg3]$
+chunks[arg1,arg2]$
 clamp[arg1,arg2,arg3]$
 clearBit[arg1,arg2]$
 collapseIntervals[arg1]$
@@ -185,6 +189,7 @@ dict[]$
 digitLength[arg1]$
 dimensions[]$
 dimensionsToArray[arg1]$
+divide[arg1,arg2]$
 divideAndRemainder[arg1,arg2]$
 DM[angle]$
 DMS[angle]$
@@ -214,6 +219,7 @@ en_sv[arg1]$
 en_zh[arg1]$
 en_zt[arg1]$
 en[arg1]$
+endsWith[arg1,arg2]$
 Engels[arg1]$
 engelska[arg1]$
 Engelska[arg1]$
@@ -389,6 +395,7 @@ hex[arg1]$
 hexadecimal[arg1]$
 HMS[h,m=0,s=0]$
 HMS[time]$
+hypotenuse[arg1]$
 Im[arg1]$
 indexOf[arg1,arg2,arg3]$
 indexOf[arg1,arg2]$
@@ -454,6 +461,7 @@ JD[arg1]$
 JDE[arg1]$
 join[arg1,arg2]$
 joinln[arg1]$
+joinstr[arg1]$
 keys[arg1]$
 ko_en[arg1]$
 ko[arg1]$
@@ -514,6 +522,7 @@ modes[list]$
 modInverse[arg1,arg2]$
 modPow[arg1,arg2,arg3]$
 mostCommon[arg1]$
+mul[arg1,arg2]$
 Nederlands[arg1]$
 negate[arg1]$
 newJava[arg1,arg2=[]]$
@@ -531,6 +540,7 @@ now[]$
 nth[arg1,arg2]$
 nth0[arg1,arg2]$
 nth1[arg1,arg2]$
+nthPrime[arg1]$
 numerator[arg1,arg2=true,arg3=true]$
 numeratorDenominator[arg1,arg2=true,arg3=true]$
 oct[arg1]$
@@ -560,6 +570,7 @@ Portugais[arg1]$
 Portuguese[arg1]$
 PortugueseToEnglish[arg1]$
 PortugueseToFrench[arg1]$
+power[arg1,arg2]$
 previousPrime[arg1]$
 primes[]$
 primes[arg1,arg2]$
@@ -666,6 +677,9 @@ splitLines[arg1]$
 sqrt[arg1]$
 sqrt[n,digits]$
 sqrtExact[n,digits]$
+sqrtNearestInteger[arg1]$
+startsWith[arg1,arg2,arg3]$
+startsWith[arg1,arg2]$
 staticJava[arg1,arg2,arg3=true]$
 stringToBytes[arg1,arg2=UTF8]$
 structureEquals[arg1,arg2]$
@@ -680,6 +694,7 @@ substringRaw[arg1,arg2,arg3]$
 substrLen[arg1,arg2,arg3]$
 substrLenRaw[arg1,arg2,arg3]$
 substrRaw[arg1,arg2,arg3]$
+subtract[arg1,arg2]$
 subtractLeap[arg1,arg2]$
 sum[arg1,arg2]$
 sum[arg1]$
